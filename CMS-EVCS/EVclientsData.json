@@ -1,0 +1,51 @@
+[
+  {
+    "EVclientID": 1,
+    "EVwatts": "2000",
+    "status": 0,
+    "EVCS_id": "5",
+    "EVtime": "5"
+  },
+  {
+    "EVCS_id": 1,
+    "EVclientID": 2,
+    "EVwatts": 2000,
+    "status": 1,
+    "EVtime": 0
+  },
+  {
+    "EVCS_id": 1,
+    "EVclientID": 3,
+    "EVwatts": 3000,
+    "status": 1,
+    "EVtime": 0
+  },
+  {
+    "EVCS_id": 1,
+    "EVclientID": 4,
+    "EVwatts": 4000,
+    "status": 0,
+    "EVtime": 0
+  },
+  {
+    "EVCS_id": 1,
+    "EVclientID": 5,
+    "EVwatts": 2300,
+    "status": 0,
+    "EVtime": 0
+  },
+  {
+    "EVCS_id": 0,
+    "EVclientID": 6,
+    "EVwatts": 5300,
+    "status": 0,
+    "EVtime": 0
+  },
+  {
+    "EVCS_id": 0,
+    "EVclientID": 7,
+    "EVwatts": 6000,
+    "status": 0,
+    "EVtime": 0
+  }
+]

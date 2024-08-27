@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            gap: 1rem;
+        }
+
+        .container h2 {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <form action="/ev" method="POST">
+        <div class="container">
+            <h2>EVCS ID Here</h2>
+            <input type="text" name="EVCS_id" id="EVCS_id" placeholder="ID">
+            <h2>EV's ID Here</h2>
+            <input type="text" name="id" id="id" placeholder="ID">
+            <h2>Watts</h2>
+            <input type="text" name="watts" id="watts" placeholder="Watts">
+            <h2>Time</h2>
+            <input type="text" name="time" id="time" placeholder="Time">
+            <button>Charge EV</button>
+        </div>
+    </form>
+</body>
+</html>

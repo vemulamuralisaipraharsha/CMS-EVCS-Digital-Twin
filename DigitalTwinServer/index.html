@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            gap: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" action="/firmwareUpdate">
+        <div class="container">
+            <h1>Firmware Updater</h1>
+            <input required id="client_id" name="client_id" type="number" placeholder="Client ID" />
+            <button>Update Firmware</button>
+        </div>
+    </form>
+</body>
+</html>
